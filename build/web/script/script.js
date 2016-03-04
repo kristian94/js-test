@@ -3,14 +3,15 @@
 //    this.age = age;
 //};
 
-var Student = function(name, age){
+var Student = function(id, name, age){
+    this.id = id;
     this.name = name;
     this.age = age;
 };
 
-var s1 = new Student("Gorm", 20);
-var s2 = new Student("Lenin", 34);
-var s3 = new Student("Ralf", 23);
+var s1 = new Student(01, "Gorm", 20);
+var s2 = new Student(02, "Lenin", 34);
+var s3 = new Student(03, "Ralf", 23);
 
 var students = [s1, s2, s3];
 
